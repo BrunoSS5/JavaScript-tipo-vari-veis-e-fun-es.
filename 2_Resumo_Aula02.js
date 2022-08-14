@@ -50,3 +50,58 @@ if (forma3 === 'quadrado'){
 }
 
 console.log(area3)
+
+// Video 03 - truthy e falsy/ arquivo truthy-falsy.js
+//boolean
+
+const usuarioLogado =true
+const contaPaga = false;
+
+// truthy ou falsy
+
+/*
+o javascript condidera esses resultados como tipo falso.
+0 - falsy - zero
+"" - falsy  - string vazia
+null - ele reprenta vazio
+undefined - variavel sem valor
+*/
+/*
+console.log ( 0 == false)
+console.log ( '' == false)
+console.log ( 1 == true)
+*/
+
+// null => vazio ou nada
+
+let minhaVar;
+let varNull = null;
+
+let numero2 = 3;
+let texto = 'Alura'
+
+
+console.log(typeof numero2)
+console.log(typeof texto)
+
+// metodo typeof => serve para verificar qual o tipo de dado esta sendo guardada na varivale em questão.
+
+
+// Video 04 conversão de tipos/ arquivo conversoes.js
+
+//booleanos
+
+//CONVERSÃO IMPLICITA
+const numero = 322;
+const numeroString = "322" // é possivel também colocar a função Number(numeroString) na variavel.
+/*
+= - 1 igual é para atribuição
+== - comparação simples dos valores 
+=== - compara os valores e tipo de dado entre as comparações.
+
+//CONVERSÃO EXPLICITA
+
+Number() - tranforma uma string em numero
+String() -  transforma numero em string
+*/
+console.log(numero + Number(numeroString))
