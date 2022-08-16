@@ -72,7 +72,7 @@ console.log ( '' == false)
 console.log ( 1 == true)
 */
 
-// null => vazio ou nada
+// null => vazio ou nada - Exemplos logo abaixo
 
 let minhaVar;
 let varNull = null;
@@ -84,7 +84,7 @@ let texto = 'Alura'
 console.log(typeof numero2)
 console.log(typeof texto)
 
-// metodo typeof => serve para verificar qual o tipo de dado esta sendo guardada na varivale em questão.
+// metodo typeof => serve para verificar qual o tipo de dado esta sendo guardada na varival em questão.
 
 
 // Video 04 conversão de tipos/ arquivo conversoes.js
